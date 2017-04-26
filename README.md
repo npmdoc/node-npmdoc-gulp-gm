@@ -1,6 +1,6 @@
 # npmdoc-gulp-gm
 
-#### api documentation for  [gulp-gm (v0.0.8)](https://github.com/scalableminds/gulp-gm)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-gm.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-gm) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-gm.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-gm)
+#### basic api documentation for  [gulp-gm (v0.0.8)](https://github.com/scalableminds/gulp-gm)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-gm.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-gm) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-gm.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-gm)
 
 #### Image manipulation with GraphicsMagick for gulp.
 
@@ -70,7 +70,8 @@
     "scripts": {
         "test": "gulp test"
     },
-    "version": "0.0.8"
+    "version": "0.0.8",
+    "bin": {}
 }
 ```
 
