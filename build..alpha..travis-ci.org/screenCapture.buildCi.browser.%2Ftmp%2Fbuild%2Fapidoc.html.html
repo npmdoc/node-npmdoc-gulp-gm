@@ -72,15 +72,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-gm.toString">
-            function <span class="apidocSignatureSpan">gulp-gm.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -175,37 +166,6 @@
   return gulpGm(modifier, options);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-gm.toString" id="apidoc.element.gulp-gm.toString">
-        function <span class="apidocSignatureSpan">gulp-gm.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-var passthrough = through();
-var gmFile = _gm(file.contents, file.path);
-
-
-var finish = function (err, modifiedGmFile) {
-  if (err) {
-    return done(new PluginError(PLUGIN_NAME, err.<span class="apidocCodeKeywordSpan">toString</span>()));
-  } else if (modifiedGmFile == null) {
-    return done(new PluginError(PLUGIN_NAME, "Modifier callback didn't return anything."));
-  } else {
-    modifiedGmFile.toBuffer(function (err, buffer) {
-      if (err) {
-        return done(new PluginError(PLUGIN_NAME, err));
-      } else {
-...</pre></li>
     </ul>
 
 
